@@ -1,0 +1,64 @@
+<div class="container-fluid mt-4">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">NUEVA PÓLIZA</h5>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-3">
+                        <label>CC POL</label>
+                        <input type="text" class="form-control" value="11101" readonly>
+                    </div>
+                    <div class="col-md-3">
+                        <label># CEDULA</label>
+                        <input type="text" class="form-control" placeholder="Ej: 04E0001">
+                    </div>
+                    <div class="col-md-3">
+                        <label>TIPO</label>
+                        <select class="form-control">
+                            <option>Ingreso</option>
+                            <option>Egreso</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label>FECHA</label>
+                        <input type="date" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label>CONCEPTO</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-3">
+                        <label>CARGO ($)</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="col-md-3">
+                        <label>ABONO ($)</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="col-md-3">
+                        <label>CUENTA CONTABLE</label>
+                        <select class="form-control">
+                            <option>1113.12125.11101.00003 - CTA. 6551072574</option>
+                            <!-- Más opciones... -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-end">
+                        <button class="btn btn-secondary me-2">Cancelar</button>
+                        <button class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
